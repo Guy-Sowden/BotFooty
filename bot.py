@@ -9,11 +9,10 @@ import time
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
-"""
+
 auth = tweepy.OAuthHandler('', '')
 auth.set_access_token('', '')
 api = tweepy.API(auth)
-"""
 
 trove_api = ""
 search = "VFL"
